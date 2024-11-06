@@ -1,0 +1,50 @@
+/* src/App.css */
+
+
+/* Global styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    /* Light background color */
+    color: #333;
+    /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    /* Maximum width of the app */
+    margin: 0 auto;
+    /* Centering the container */
+    padding: 1rem;
+    /* Padding around the container */
+}
+
+
+/* You can add your own custom styles here */
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* For mobile responsiveness */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem;
+    }
+}
